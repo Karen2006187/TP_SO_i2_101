@@ -16,3 +16,9 @@ con un git push origin main
 
 b- No, ALFA no puede actualizar su fork con el de GAMMA, porque cada fork
 es una copia independiente
+
+c- No, GAMMA no puede actualizar su fork con el de ALFA, porque cada fork
+es una copia independiente.
+
+d- Depende de como sea la actualización. Se puede sin perder cambios, se pueden perder y se pueden cambiar manualmente.
+
