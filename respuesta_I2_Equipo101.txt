@@ -2,3 +2,17 @@ Diaz Julian - BETA
 Cardozo Karen - ALFA
 Celedon Gaston - GAMMA
 
+a- Primero deberia agregar el repositorio original como remoto llamado upstream
+   con un git remote add upstream https://github.com/julianidiaz98/TP_SO_i2_101.git
+
+Segundo traigo los cambios del repositorio original 
+con un git fetch upstream
+
+Tercero fusiono los cambios con mi rama principal
+con un git merge upstream/main
+
+Finalmente actualizo mi fork en GitHub
+con un git push origin main
+
+b- No, ALFA no puede actualizar su fork con el de GAMMA, porque cada fork
+es una copia independiente
