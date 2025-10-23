@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 Nombre y apellido: Karen Cardozo
 IP: 192.168.0.19
 Hora: 11:52:35
+=======
+Gaston Celedon    181.165.225.16    12:04AM
+>>>>>>> upstream/main

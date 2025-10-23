@@ -2,3 +2,60 @@ Diaz Julian - BETA
 Cardozo Karen - ALFA
 Celedon Gaston - GAMMA
 
+a- Primero deberia agregar el repositorio original como remoto llamado upstream
+   con un git remote add upstream https://github.com/julianidiaz98/TP_SO_i2_101.git
+
+Segundo traigo los cambios del repositorio original 
+con un git fetch upstream
+
+Tercero fusiono los cambios con mi rama principal
+con un git merge upstream/main
+
+Finalmente actualizo mi fork en GitHub
+con un git push origin main
+
+b- No, ALFA no puede actualizar su fork con el de GAMMA, porque cada fork
+es una copia independiente
+
+c- No, GAMMA no puede actualizar su fork con el de ALFA, porque cada fork
+es una copia independiente.
+
+d- Depende de como sea la actualización. Se puede sin perder cambios, se pueden perder y se pueden cambiar manualmente.
+
+E- 
+
+Julian Diaz
+1- creo repositorio manual, con readme. Luego de clonar el repositorio, de manera local, de manera local crea el fork.txt
+
+Gaston Celedon 
+2- clona el repositorio y realiza lo dicho en la respuesta a
+
+Karen Cardozo
+3- clona repositorio y realiza lo dicho en la respuesta a
+
+Julian Diaz
+4- dentro de la carpeta crea manualmente el archivo, luego usa git add ., git commit y git push
+
+Gaston Celedon
+5- Realiza lo mismo de la respuesta a
+
+Karen Cardozo 
+6- Realiza lo mismo de la respuesta a
+
+Julian Diaz
+7- Reptio proceso del paso 4 y agrego los nombres 
+
+Celedon gaston
+8- realiza lo en la respuesta a, agrega sus respuestas, hace git add., git commit y push
+
+Julian Diaz
+9- Actualiza el repositorio original, hace merch al fork de Gamma. Comandos hechos: git remote add fork https://github.com/gastonemanuelceledonsaavedra-png/TP_SO_i2_101 (agrega el fork como remoto adicional), git fetch fork, git merge fork/main, git push origin main. Finalmente manualmente cambia el archicofradía de respuesta, git add . Y git push
+
+Karen Cardozo
+10-Comandos hechos: git remote add fork https://github.com/julianidiaz98/TP_SO_i2_101.git , git fetch fork, git merge fork/main, git push origin main. Finalmente manualmente cambia el archivo de respuestas, git add . Y git push
+
+Julian Diaz
+11- Realiza lo mismo que en el punto 9, pero con el repositorio de Alfa
+
+
+
